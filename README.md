@@ -1,59 +1,33 @@
-# NeonDodge
+# Neon Dodge for Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.1.
+This kit gives you the drop-in source files for a small arcade game built as a standalone Angular app.
 
-## Development server
+## What you get
 
-To start a local development server, run:
+- `src/app/app.component.ts` - the complete game
+- `src/main.ts` - standalone Angular bootstrap
+- `src/styles.css` - global reset
+- `src/index.html` - simple app shell
 
-```bash
-ng serve
-```
+## Fastest way to run it
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+1. Install Node.js LTS and Angular CLI.
+2. Create a fresh Angular app:
+   - `ng new neon-dodge`
+3. Replace the generated files inside `src/` with the ones in this kit.
+4. Run:
+   - `ng serve`
+5. Open `http://localhost:4200`
 
-## Code scaffolding
+## Controls
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- Move: `WASD` or arrow keys
+- Pause: `Space`
+- Restart: `Enter`
 
-```bash
-ng generate component component-name
-```
+## Gameplay
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Dodge asteroids
+- Collect glowing orbs for bonus points
+- Survive as long as possible
+- High score is saved in local storage
