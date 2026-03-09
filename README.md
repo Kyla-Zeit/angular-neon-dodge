@@ -1,6 +1,6 @@
-# Neon Dodge for Angular
+# Neon Dodge
 
-This kit gives you the drop-in source files for a small arcade game built as a standalone Angular app.
+Neon Dodge is a browser-based arcade survival game built with Angular and TypeScript. Avoid falling asteroids, collect energy orbs, and survive as long as possible while chasing a new high score.
 
 ## What you get
 
