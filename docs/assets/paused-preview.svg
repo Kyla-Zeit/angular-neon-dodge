@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#08101f"/><stop offset="1" stop-color="#050814"/></linearGradient>
+    <linearGradient id="cta" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8db5ff"/><stop offset="1" stop-color="#6af0de"/></linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="#05070d"/>
+  <rect x="42" y="36" width="1116" height="106" rx="26" fill="#0b0f1b" stroke="#fff" stroke-opacity=".08"/>
+  <text x="70" y="72" fill="#8db5ff" font-family="Arial" font-size="13" letter-spacing="3">ANGULAR ARCADE BUILD</text><text x="70" y="112" fill="#fff" font-family="Arial" font-size="34" font-weight="700">Neon Dodge</text>
+  <g font-family="Arial"><text x="705" y="72" fill="#c6d4ff" font-size="13">SCORE</text><text x="705" y="112" fill="#fff" font-size="32" font-weight="700">892</text><text x="845" y="72" fill="#c6d4ff" font-size="13">LIVES</text><text x="845" y="112" fill="#fff" font-size="32" font-weight="700">2</text><text x="960" y="72" fill="#c6d4ff" font-size="13">BEST</text><text x="960" y="112" fill="#fff" font-size="32" font-weight="700">1840</text></g>
+  <rect x="42" y="164" width="838" height="516" rx="32" fill="url(#bg)" stroke="#fff" stroke-opacity=".08"/>
+  <g stroke="#6e8eff" stroke-opacity=".09"><path d="M90 164v516M138 164v516M186 164v516M234 164v516M282 164v516M330 164v516M378 164v516M426 164v516M474 164v516M522 164v516M570 164v516M618 164v516M666 164v516M714 164v516M762 164v516M810 164v516"/><path d="M42 212h838M42 260h838M42 308h838M42 356h838M42 404h838M42 452h838M42 500h838M42 548h838M42 596h838M42 644h838"/></g>
+  <g opacity=".42"><circle cx="180" cy="272" r="29" fill="#596174"/><circle cx="618" cy="242" r="38" fill="#596174"/><circle cx="728" cy="488" r="24" fill="#596174"/><circle cx="380" cy="364" r="13" fill="#b9fff5"/><g transform="translate(478 568)"><path d="M0-30 23 20 10 17 0 30-10 17-23 20Z" fill="#84a9ff"/><circle r="6" fill="#6af0de"/></g></g>
+  <rect x="42" y="164" width="838" height="516" rx="32" fill="#03050c" fill-opacity=".62"/>
+  <rect x="178" y="290" width="566" height="254" rx="28" fill="#0b0f1b" fill-opacity=".97" stroke="#fff" stroke-opacity=".08"/>
+  <text x="461" y="354" text-anchor="middle" fill="#fff" font-family="Arial" font-size="44" font-weight="700">Paused</text>
+  <text x="461" y="401" text-anchor="middle" fill="#c9d5ef" font-family="Arial" font-size="18">Catch your breath. The asteroid field will still be</text>
+  <text x="461" y="427" text-anchor="middle" fill="#c9d5ef" font-family="Arial" font-size="18">extremely rude when you come back.</text>
+  <rect x="340" y="472" width="242" height="46" rx="16" fill="url(#cta)"/><text x="461" y="501" text-anchor="middle" fill="#08101d" font-family="Arial" font-size="17" font-weight="700">Resume game</text>
+  <rect x="904" y="164" width="254" height="244" rx="28" fill="#0b0f1b" stroke="#fff" stroke-opacity=".08"/><text x="930" y="207" fill="#fff" font-family="Arial" font-size="21" font-weight="700">State machine</text><text x="930" y="246" fill="#c9d5ef" font-family="Arial" font-size="16">ready</text><text x="930" y="276" fill="#c9d5ef" font-family="Arial" font-size="16">running</text><text x="930" y="306" fill="#8db5ff" font-family="Arial" font-size="16" font-weight="700">paused  ← current</text><text x="930" y="336" fill="#c9d5ef" font-family="Arial" font-size="16">gameover</text><text x="930" y="374" fill="#c9d5ef" font-family="Arial" font-size="14">Space toggles pause/resume.</text>
+  <rect x="904" y="424" width="254" height="256" rx="28" fill="#0b0f1b" stroke="#fff" stroke-opacity=".08"/><text x="930" y="466" fill="#fff" font-family="Arial" font-size="21" font-weight="700">Paused behavior</text><text x="930" y="506" fill="#c9d5ef" font-family="Arial" font-size="15">Animation frame is cancelled.</text><text x="930" y="536" fill="#c9d5ef" font-family="Arial" font-size="15">The current frame is redrawn.</text><text x="930" y="566" fill="#c9d5ef" font-family="Arial" font-size="15">Score and positions are preserved.</text><text x="930" y="596" fill="#c9d5ef" font-family="Arial" font-size="15">Resume restarts the loop.</text>
+</svg>
