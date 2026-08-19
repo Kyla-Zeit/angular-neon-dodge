@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#080a14"/><stop offset="1" stop-color="#05070d"/></linearGradient>
+    <linearGradient id="cta" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8db5ff"/><stop offset="1" stop-color="#6af0de"/></linearGradient>
+    <radialGradient id="glow1"><stop stop-color="#764dff" stop-opacity=".28"/><stop offset="1" stop-color="#764dff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="210" cy="40" r="280" fill="url(#glow1)"/>
+  <rect x="42" y="38" width="702" height="154" rx="28" fill="#0b0f1b" fill-opacity=".92" stroke="#ffffff" stroke-opacity=".08"/>
+  <text x="72" y="72" fill="#8db5ff" font-family="Arial" font-size="14" letter-spacing="3">ANGULAR ARCADE BUILD</text>
+  <text x="72" y="122" fill="#f5f7ff" font-family="Arial" font-size="46" font-weight="700">Neon Dodge</text>
+  <text x="72" y="156" fill="#c9d5ef" font-family="Arial" font-size="21">Steer the ship, dodge asteroids, grab energy orbs.</text>
+  <g font-family="Arial" text-anchor="middle">
+    <rect x="768" y="38" width="122" height="154" rx="24" fill="#0b0f1b" stroke="#ffffff" stroke-opacity=".08"/><text x="829" y="80" fill="#c6d4ff" font-size="13" letter-spacing="2">SCORE</text><text x="829" y="140" fill="#fff" font-size="36" font-weight="700">0</text>
+    <rect x="902" y="38" width="122" height="154" rx="24" fill="#0b0f1b" stroke="#ffffff" stroke-opacity=".08"/><text x="963" y="80" fill="#c6d4ff" font-size="13" letter-spacing="2">LIVES</text><text x="963" y="140" fill="#fff" font-size="36" font-weight="700">3</text>
+    <rect x="1036" y="38" width="122" height="154" rx="24" fill="#0b0f1b" stroke="#ffffff" stroke-opacity=".08"/><text x="1097" y="80" fill="#c6d4ff" font-size="13" letter-spacing="2">BEST</text><text x="1097" y="140" fill="#fff" font-size="36" font-weight="700">1840</text>
+  </g>
+  <rect x="42" y="214" width="838" height="464" rx="32" fill="#071020" stroke="#ffffff" stroke-opacity=".08"/>
+  <g stroke="#6e8eff" stroke-opacity=".10"><path d="M90 214v464M138 214v464M186 214v464M234 214v464M282 214v464M330 214v464M378 214v464M426 214v464M474 214v464M522 214v464M570 214v464M618 214v464M666 214v464M714 214v464M762 214v464M810 214v464"/><path d="M42 262h838M42 310h838M42 358h838M42 406h838M42 454h838M42 502h838M42 550h838M42 598h838M42 646h838"/></g>
+  <g fill="#bddcff" opacity=".75"><circle cx="95" cy="285" r="2"/><circle cx="180" cy="333" r="1.6"/><circle cx="346" cy="272" r="2.2"/><circle cx="506" cy="430" r="1.6"/><circle cx="688" cy="302" r="2"/><circle cx="828" cy="485" r="2.4"/></g>
+  <g transform="translate(462 575)"><ellipse cx="0" cy="25" rx="18" ry="30" fill="#6af0de" opacity=".35"/><path d="M0-30 23 20 10 17 0 30-10 17-23 20Z" fill="#84a9ff" stroke="#fff" stroke-opacity=".55" stroke-width="2"/><circle r="6" fill="#6af0de"/></g>
+  <rect x="152" y="322" width="616" height="250" rx="28" fill="#0b0f1b" fill-opacity=".94" stroke="#ffffff" stroke-opacity=".08"/>
+  <text x="460" y="383" text-anchor="middle" fill="#fff" font-family="Arial" font-size="42" font-weight="700">Neon Dodge</text>
+  <text x="460" y="425" text-anchor="middle" fill="#c9d5ef" font-family="Arial" font-size="18">Fly with WASD or arrow keys, survive the swarm,</text>
+  <text x="460" y="450" text-anchor="middle" fill="#c9d5ef" font-family="Arial" font-size="18">and collect glowing orbs for bonus points.</text>
+  <g font-family="Arial" font-size="14" fill="#dce8ff"><rect x="230" y="476" width="180" height="34" rx="17" fill="#7386ff" fill-opacity=".10" stroke="#8fb5ff" stroke-opacity=".18"/><text x="320" y="498" text-anchor="middle">Move: WASD / Arrows</text><rect x="420" y="476" width="120" height="34" rx="17" fill="#7386ff" fill-opacity=".10" stroke="#8fb5ff" stroke-opacity=".18"/><text x="480" y="498" text-anchor="middle">Pause: Space</text><rect x="550" y="476" width="140" height="34" rx="17" fill="#7386ff" fill-opacity=".10" stroke="#8fb5ff" stroke-opacity=".18"/><text x="620" y="498" text-anchor="middle">Restart: Enter</text></g>
+  <rect x="351" y="526" width="218" height="42" rx="16" fill="url(#cta)"/><text x="460" y="553" text-anchor="middle" fill="#08101d" font-family="Arial" font-size="17" font-weight="700">Start game</text>
+  <rect x="904" y="214" width="254" height="208" rx="28" fill="#0b0f1b" stroke="#ffffff" stroke-opacity=".08"/><text x="930" y="255" fill="#fff" font-family="Arial" font-size="21" font-weight="700">How it works</text><text x="930" y="292" fill="#c9d5ef" font-family="Arial" font-size="16">Asteroids cost a life.</text><text x="930" y="318" fill="#c9d5ef" font-family="Arial" font-size="16">Energy orbs add points.</text><text x="930" y="344" fill="#c9d5ef" font-family="Arial" font-size="16">Survive longer and the</text><text x="930" y="370" fill="#c9d5ef" font-family="Arial" font-size="16">field gets faster.</text>
+  <rect x="904" y="438" width="254" height="240" rx="28" fill="#0b0f1b" stroke="#ffffff" stroke-opacity=".08"/><text x="930" y="480" fill="#fff" font-family="Arial" font-size="21" font-weight="700">Quick actions</text><rect x="930" y="512" width="202" height="44" rx="16" fill="url(#cta)"/><text x="1031" y="540" text-anchor="middle" fill="#08101d" font-family="Arial" font-size="16" font-weight="700">Start / Resume</text><rect x="930" y="570" width="202" height="44" rx="16" fill="#ffffff" fill-opacity=".08" stroke="#ffffff" stroke-opacity=".08"/><text x="1031" y="598" text-anchor="middle" fill="#fff" font-family="Arial" font-size="16" font-weight="700">Pause</text>
+</svg>
